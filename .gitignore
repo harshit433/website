@@ -1,0 +1,62 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Next.js
+/.next/
+/out/
+
+# Production / build
+/build
+/dist
+
+# Environment variables (keep .env.example if you add one)
+.env
+.env.*
+!.env.example
+
+# Vercel
+.vercel
+
+# Supabase (local CLI)
+.supabase
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Testing
+/coverage
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE (optional local overrides)
+.idea/
+*.swp
+*.swo
+
+# Certificates / secrets
+*.pem
+
+# Turbo (if used)
+.turbo
+
+.env.local
+
+.env.development.local
+
+.env
